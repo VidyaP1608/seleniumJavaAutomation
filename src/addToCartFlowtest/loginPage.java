@@ -11,7 +11,7 @@ public class loginPage {
 
 	public static void main(String[] args) throws InterruptedException {
 	
-		String userName="standard_user";
+		String userName="locked_out_user";
 		String password="secret_sauce";
 		String logoName="Swag Labs";
 		String actualURL;

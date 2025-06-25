@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 
 
+
 public class shoppingPage {
 	
 	WebDriver driver;
@@ -37,7 +38,9 @@ public class shoppingPage {
 		WebElement addToCart2=driver.findElement(addToCart2Locator);
 		
 		addToCart1.click();
+		System.out.println("clicked");
 		addToCart2.click();
+		System.out.println("clicked");
 		
 		List<String> items=getItemNames();
 		

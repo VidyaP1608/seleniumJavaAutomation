@@ -19,11 +19,12 @@ public class addToCartPage {
 	{
 		List<WebElement> cartItems=driver.findElements(addToCartItems);
 		System.out.println(cartItems.size());
-
+		
 		for(WebElement i: cartItems)
 		{
 			if(!items.contains(i.getText()))
 			{
+				System.out.println(i.getText());
 				return false;
 			}
 		}
