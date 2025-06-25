@@ -21,12 +21,15 @@ This project folder contains an automated test case that simulates a user flow f
 
 ## 🧰 Tech Stack
 
-Programming Language: Java	
-Build Tool: Maven 
-Testing Framework: TestNG	
-Automation Tool: Selenium WebDriver	
-Design Pattern: Page Object Model (POM)	
-Browser Driver	ChromeDriver.
+
+| Category             | Tool / Technology              |
+|----------------------|--------------------------------|
+| Programming Language | Java                           |
+| Build Tool           | Maven                          |
+| Testing Framework    | TestNG                         |
+| Automation Tool      | Selenium WebDriver             |
+| Design Pattern       | Page Object Model (POM)        |
+| Browser Driver       | ChromeDriver                   |
 
 
 
